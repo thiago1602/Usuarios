@@ -8,7 +8,7 @@
 
   $connect = mysql_connect("mysql:host=localhost:3306;dbname=usuarios","root","aula");
 
-  $db = mysql_select_db('nome_do_banco_de_dados');
+  $db = mysql_select_db('usuarios');
 
     if (isset($entrar)) {
 
