@@ -6,7 +6,7 @@ $login = $_POST['login'];
 
 $senha = MD5($_POST["senha"]);
 
-$connect = mysql_connect("mysql:host=localhost:3306;dbname=usuarios","root","aula");
+$connect = mysql_connect("mysql:host=localhost:3306;dbname=usuarios","root","");
 
 $db = mysql_select_db("usuarios");
 
